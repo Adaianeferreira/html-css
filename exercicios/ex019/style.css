@@ -1,0 +1,50 @@
+@charse "UTF-8";
+
+/* 
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+ */
+
+body{
+    background-color: #c9f7df ;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: #1e402f;
+}
+  
+/* 
+Não posso colocar mais do 1 id, está errado.
+id só 1.
+quando quero colocar uma classe personalizada posso colocar CLASS, pode ser multiplo. Mas de 1 vez , preciso colocar . na frente da palavra , não precisa colocar h1 ou h2 , assim por diante.
+não colocar acentuação
+*/
+
+h1#principal{
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+
+h2{
+    color: #3c805e;
+}
+
+.basico{
+    color: #3c805e;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: #807f3c;
+}
+
+.avancado{
+    color: #803c3c;
+}
+
+.destaque{
+    background-color: rgba(209, 209, 94, 0.765);
+}
