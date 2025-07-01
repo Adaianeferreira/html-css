@@ -7,16 +7,29 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* shorthand - background
+            
+                color > image > position > repeat > size > attachment
+
+                # ainda não funciona o (size), preciso colocar depois .
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center
+            no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 8px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +41,9 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis soluta ea earum nam possimus, id perspiciatis assumenda fuga praesentium non. Cum dolorem ipsum error voluptate, recusandae corporis assumenda quidem. Enim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas beatae, cupiditate ipsam similique minima explicabo minus, tempora odio est dolores sunt veniam unde quam harum iste inventore id, eaque alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quia. Mollitia culpa debitis tenetur delectus amet quae eum harum ex nisi voluptatem distinctio possimus corporis aliquam, quidem porro? Veniam, aut.</p>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis soluta ea earum nam possimus, id perspiciatis assumenda fuga praesentium non. Cum dolorem ipsum error voluptate, recusandae corporis assumenda quidem. Enim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas beatae, cupiditate ipsam similique minima explicabo minus, tempora odio est dolores sunt veniam unde quam harum iste inventore id, eaque alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quia. Mollitia culpa debitis tenetur delectus amet quae eum harum ex nisi voluptatem distinctio possimus corporis aliquam, quidem porro? Veniam, aut.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis soluta ea earum nam possimus, id perspiciatis assumenda fuga praesentium non. Cum dolorem ipsum error voluptate, recusandae corporis assumenda quidem. Enim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas beatae, cupiditate ipsam similique minima explicabo minus, tempora odio est dolores sunt veniam unde quam harum iste inventore id, eaque alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quia. Mollitia culpa debitis tenetur delectus amet quae eum harum ex nisi voluptatem distinctio possimus corporis aliquam, quidem porro? Veniam, aut.</p>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis soluta ea earum nam possimus, id perspiciatis assumenda fuga praesentium non. Cum dolorem ipsum error voluptate, recusandae corporis assumenda quidem. Enim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas beatae, cupiditate ipsam similique minima explicabo minus, tempora odio est dolores sunt veniam unde quam harum iste inventore id, eaque alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quia. Mollitia culpa debitis tenetur delectus amet quae eum harum ex nisi voluptatem distinctio possimus corporis aliquam, quidem porro? Veniam, aut.</p>
     </main>
     
 </body>
