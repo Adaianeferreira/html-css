@@ -8,7 +8,7 @@
 }
 
 body, html {
-    
+
     background-color: lightgrey;
 }
 
@@ -19,6 +19,14 @@ header {
 header > h1 {
     padding: 10px;
     text-align: center;
+}
+
+span#burguer {
+    background-color: rgb(48, 48, 48);
+    color:white ;
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
 
 menu {
@@ -34,9 +42,7 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    border-top: 2px solid black;
+    background-color: rgb(87, 87, 87)
 }
 
 main {
